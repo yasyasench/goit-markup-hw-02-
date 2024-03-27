@@ -25,6 +25,11 @@
     color: #2E2F42;
 }
 
+.menu:hover
+.menu:active {
+    color: #404BBF;
+}
+
 .navigation {
     font-family: "Roboto",sans-serif;
     font-size: 16px;
@@ -33,6 +38,9 @@
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+}
+.navigation:hover {
+    color: #404BBF;
 }
 .tel-number{
     color: #434455;
@@ -51,6 +59,12 @@
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
+}
+.button-order{
+    color: inherit;
+}
+.button-order:hover{
+    color:#ffffff;
 }
 /* ------------------------------------------------ */
 

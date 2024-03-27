@@ -1,0 +1,99 @@
+
+/* -----------------------HEADER------------------------- */
+.header {
+    background-color: #E7E9FC;
+
+}
+.logo {
+    color: #2E2F42;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.menu {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.navigation {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+/* ------------------------------------------------ */
+
+/* -------------------------HERO----------------------- */
+.section-hero {
+    background-color: #2E2F42;
+    color: #ffffff ;
+    font-family: "Roboto";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+/* ------------------------------------------------ */
+
+/* -----------------------SECTION-FEATURES------------------------- */
+.section-team {
+    background-color: #F4F4FD;
+    color: #434455;
+    font-family: "Roboto";
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+/* ------------------------------------------------ */
+
+/* -----------------------SECTION-TEAM------------------------- */
+
+/* ------------------------------------------------ */
+
+/* -----------------------SECTION-PORTFOLIO------------------------- */
+
+/* ------------------------------------------------ */
+
+/* -----------------------FOOTER------------------------- */
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.logo-footer{
+    color: inherit;
+}
+/* ------------------------------------------------ */
+
+
+
+
+body{
+    color: #2E2F42;
+    font-family: "Roboto";
+    background-color: #ffffff ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ 

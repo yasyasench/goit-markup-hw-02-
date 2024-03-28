@@ -4,41 +4,53 @@
     <meta charset="utf-8" />
     <meta name="description" content="Web Studio" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <header class="header">
       <nav>
         <a class="logo" href="./index.html"
-          ><span class="accent">Web</span>Studio</a
+          >Web<span class="accent">Studio</span></a
         >
         <ul class="menu">
-          <li><a href="/"> Studio </a></li>
-          <li><a href="/"> Portfolio </a></li>
-          <li><a href="/"> Contacts </a></li>
+          <li><a class="menu-iteam" href="/"> Studio </a></li>
+          <li><a class="menu-iteam" href="/"> Portfolio </a></li>
+          <li><a class="menu-iteam" href="/"> Contacts </a></li>
         </ul>
       </nav>
-      <address>
-        <ul class="navigation">
-          <li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
+      <address class="navigation">
+        <ul>
           <li>
-            <a class="tel-number" href="tel:+110001111111">
+            <a class="nivigation-iteam" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a class="navigation-iteam" href="tel:+110001111111">
               +11 (000) 111-11-11
             </a>
           </li>
         </ul>
       </address>
     </header>
+
     <main class="main">
       <section class="section-hero">
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="hero-titel">Effective Solutions for Your Business</h1>
         <button class="button-order" type="button">Order Service</button>
       </section>
 
@@ -195,9 +207,9 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <a class="logo-footer" href="./index.html"
-        ><span class="accent">Web</span>Studio</a
+        >Web<span class="accent-footer">Studio</span></a
       >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital

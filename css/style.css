@@ -21,33 +21,31 @@
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #2e2f42;
 }
 
-.menu-iteam:hover
-.menu-iteam:active {
-    color: #404bbf;
+.menu-iteam:hover,
+.menu-iteam:focus {
+    color: #404BBF;
 }
-
 
 .navigation-iteam{
     color: #434455;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5px;
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
     font-style: normal
 }
-.navigation-iteam:hover 
-.navigation-iteam:active 
+.navigation-iteam:hover,
 .navigation-iteam:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 
@@ -76,9 +74,8 @@
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button-order:hover
-.button-order:focus{
-    color:#ffffff;
+.button-order:hover,
+.button-order:focus {
     background-color: #404BBF;
 }
 /* ------------------------------------------------ */
@@ -102,12 +99,14 @@
 }
 
 .features-section p {
-    color: inherit;
+    color: #434455;
 }
 /* ------------------------------------------------ */
 
 /* -----------------------SECTION-TEAM------------------------- */
-
+.section-team{
+    background-color: #F4F4FD;
+}
 .team-iteam{
     text-align: center;
     background-color: #FFFFFF;
@@ -143,6 +142,10 @@
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
+}
+
+.portfolio-text{
+    color: #434455;
 }
 /* ------------------------------------------------ */
 
